@@ -1,0 +1,29 @@
+{
+  "name": "@alandefreitas/asciidoctor-boost-links",
+  "version": "0.0.1",
+  "description": "Asciidoctor extension to generates links to Boost library docs",
+  "main": "lib/extension.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alandefreitas/asciidoctor-boost-links.git"
+  },
+  "keywords": [
+    "asciidoctor",
+    "extension",
+    "boost",
+    "reference",
+    "documentation"
+  ],
+  "author": "Alan de Freitas",
+  "license": "BSL-1.0",
+  "bugs": {
+    "url": "https://github.com/alandefreitas/asciidoctor-boost-links/issues"
+  },
+  "homepage": "https://github.com/alandefreitas/asciidoctor-boost-links#readme",
+  "devDependencies": {
+    "asciidoctor": "^3.0.4"
+  }
+}
