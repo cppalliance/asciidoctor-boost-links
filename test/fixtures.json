@@ -3,7 +3,7 @@
     "name": "Unknown libraries render as libraries",
     "tests": [
       {
-        "input": "a",
+        "input": "boost:a[]",
         "output": "https://www.boost.org/libs/a[Boost.A]"
       }
     ]
@@ -12,7 +12,7 @@
     "name": "Links to Libraries",
     "tests": [
       {
-        "input": "core",
+        "input": "boost:core[]",
         "output": "https://www.boost.org/libs/core[Boost.Core]"
       }
     ]
@@ -21,7 +21,7 @@
     "name": "Tools have different link formats",
     "tests": [
       {
-        "input": "docca",
+        "input": "boost:docca[]",
         "output": "https://www.boost.org/tools/docca[Boost.Docca]"
       }
     ]
@@ -30,12 +30,7 @@
     "name": "Positional arguments",
     "tests": [
       {
-        "input": "boostdep",
-        "attributes": {
-          "$positional": [
-            "Dependencies"
-          ]
-        },
+        "input": "boost:boostdep[Dependencies]",
         "output": "https://www.boost.org/tools/boostdep[Dependencies]"
       }
     ]
@@ -44,20 +39,11 @@
     "name": "Forward attributes",
     "tests": [
       {
-        "input": "quickbook",
-        "attributes": {
-          "$positional": [
-            "Quickbook"
-          ],
-          "window": "_blank"
-        },
+        "input": "boost:quickbook[Quickbook,window=_blank]",
         "output": "https://www.boost.org/tools/quickbook[Quickbook,window=_blank]"
       },
       {
-        "input": "utility",
-        "attributes": {
-          "window": "_blank"
-        },
+        "input": "boost:utility[window=_blank]",
         "output": "https://www.boost.org/libs/utility[Boost.Utility,window=_blank]"
       }
     ]
@@ -66,11 +52,11 @@
     "name": "Exceptions to Pascal Case",
     "tests": [
       {
-        "input": "url",
+        "input": "boost:url[]",
         "output": "https://www.boost.org/libs/url[Boost.URL]"
       },
       {
-        "input": "build",
+        "input": "boost:build[]",
         "output": "https://www.boost.org/tools/build[B2]"
       }
     ]
