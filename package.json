@@ -1,6 +1,6 @@
 {
   "name": "@cppalliance/asciidoctor-boost-links",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Asciidoctor extension to generates links to Boost library docs",
   "main": "lib/extension.js",
   "scripts": {
